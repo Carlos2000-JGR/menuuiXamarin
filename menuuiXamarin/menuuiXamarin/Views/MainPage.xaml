@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="menuuiXamarin.MainPage"
+             xmlns:views="clr-namespace:menuuiXamarin.Views"
+             xmlns:viewmodel="clr-namespace:menuuiXamarin.ViewModels"
+             xmlns:models="clr-namespace:menuuiXamarin.Models"
+             Title="Discovery">
+
+    <Grid RowDefinitions="Auto, Auto, Auto" ColumnDefinitions="*, *" VerticalOptions="Center" Padding="10" RowSpacing="10">
+        <views:MenuView Grid.Column="0" Grid.Row="0" BindingContext="{Binding Option1}"/>
+        <views:MenuView Grid.Column="0" Grid.Row="1" BindingContext="{Binding Option2}"/>
+        <views:MenuView Grid.Column="0" Grid.Row="2" BindingContext="{Binding Option3}"/>
+        <views:MenuView Grid.Column="1" Grid.Row="0" BindingContext="{Binding Option4}"/>
+        <views:MenuView Grid.Column="1" Grid.Row="1" BindingContext="{Binding Option5}"/>
+        <views:MenuView Grid.Column="1" Grid.Row="2" BindingContext="{Binding Option6}"/>
+
+
+
+    </Grid>
+
+</ContentPage>
+
+    

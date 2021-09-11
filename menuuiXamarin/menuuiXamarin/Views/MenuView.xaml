@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="menuuiXamarin.Views.MenuView"
+       >
+    <StackLayout>
+    <Image Source="{Binding Image}" HeightRequest="50"/>
+    <Label Text="{Binding Title}" FontSize="Large" FontAttributes="Bold" Style="{StaticResource HeaderLabelStyle}" TextColor="Black"/>
+    <Label Text="{Binding Detail}" FontSize="Small" TextColor="Gray"/>
+    </StackLayout>
+
+</Frame>
